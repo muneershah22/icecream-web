@@ -823,3 +823,242 @@ footer {
   border-top: 1px solid rgb(196, 196, 196);
   font-weight: 3;
 }
+
+
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:576px){
+
+body{
+    overflow-x:hidden;
+}
+
+/* Navbar */
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+    padding:20px 10px;
+}
+
+.navbar img{
+    margin:0;
+    width:120px;
+}
+
+.nav-byn{
+    width:140px;
+    height:45px;
+    font-size:16px;
+}
+
+/* Hero */
+
+.hero{
+    flex-direction:column;
+    height:auto;
+    text-align:center;
+    padding:30px 15px;
+}
+
+.left{
+    padding:0;
+}
+
+.left h2{
+    font-size:28px;
+    line-height:35px;
+}
+
+.left h1{
+    font-size:50px;
+}
+
+.btns{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.red,
+.white{
+    margin:0;
+    width:140px;
+    height:45px;
+}
+
+.circle{
+    width:280px;
+    height:280px;
+    transform:none;
+    margin:40px auto;
+}
+
+.circle img{
+    width:150px;
+    margin:auto;
+}
+
+/* Hide desktop elements */
+
+.sixteen,
+.twentythree,
+.white-circle-1,
+.white-circle-2,
+.cafes,
+.food-trucks,
+.lorem-text,
+.aro,
+.mon{
+    display:none;
+}
+
+/* Products */
+
+.products{
+    font-size:35px;
+}
+
+.natural{
+    font-size:22px;
+}
+
+.cardone,
+.cardtwo,
+.cardthre{
+    width:90%;
+    height:auto;
+    margin:150px auto 30px;
+    padding-bottom:40px;
+}
+
+img.yu,
+img.tp,
+img.to{
+    width:230px;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:82%;
+}
+
+.onecard,
+.twocard,
+.threcard{
+    font-size:28px!important;
+    margin-top:170px!important;
+}
+
+.card-lorem{
+    font-size:18px;
+}
+
+/* How it's made */
+
+.box{
+    flex-direction:column;
+}
+
+.box img{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.ter{
+    margin:0;
+    padding:20px;
+}
+
+.rt{
+    width:140px;
+}
+
+/* Traditional Cards */
+
+.traditional-cards{
+    grid-template-columns:1fr;
+    gap:30px;
+    text-align:center;
+}
+
+.traditional-card h1{
+    font-size:55px;
+}
+
+/* Testimonial */
+
+.akri img{
+    width:120px;
+    margin:50px auto 0;
+    display:block;
+}
+
+.pera{
+    font-size:15px;
+}
+
+/* Bottom Cards */
+
+.bottom-cards{
+    flex-direction:column;
+    align-items:center;
+}
+
+.bottom-card{
+    width:90%;
+}
+
+.bottom-btns{
+    flex-direction:column;
+    gap:15px;
+}
+
+.location-btn,
+.franchise-btn{
+    width:90%;
+    margin:0 auto;
+}
+
+/* Footer */
+
+.footer-container{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+}
+
+.heading-div{
+    max-width:100%;
+    height:auto;
+}
+
+.light{
+    font-size:22px;
+}
+
+.dark{
+    font-size:38px;
+}
+
+.icon-div{
+    text-align:center;
+}
+
+.icon-div i{
+    margin:5px;
+}
+
+.last-p{
+    font-size:14px;
+}
+
+footer{
+    font-size:13px;
+    padding:20px;
+}
+
+}
